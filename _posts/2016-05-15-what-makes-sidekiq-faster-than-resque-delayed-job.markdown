@@ -23,9 +23,10 @@ How is your workload bounded?
 ===
 
 It's important to characterize your own workload:
-- CPU is pegged at 100% under load: CPU-bound
-- Network connection is saturated under load OR network-connected services are being maxed out: IO-bound
-- Memory is saturated, but neither CPU nor network are saturated: memory-bound
+
+* **CPU-bound**: CPU is pegged at 100% under load.
+* **IO-bound**: Network connection is saturated under load OR network-connected services are being maxed out.
+* **Memory-bound**: Memory is saturated, but neither CPU nor network are saturated.
 
 How does Sidekiq help?
 ===
